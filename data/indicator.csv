@@ -1,0 +1,16 @@
+Indicator ID,Anthropometric Indicator,Indicator Description
+ind1,overweight,Overweight prevalence in children aged < 5 years (%)
+ind2,overweight_F,Overweight prevalence in children aged < 5 years (%) - Female
+ind3,overweight_M,Overweight prevalence in children aged < 5 years (%) - Male
+ind4,stunting,Stunting prevalence in children aged < 5 years (%)
+ind5,stunting_F,Stunting prevalence in children aged < 5 years (%) - Female
+ind6,stunting_M,Stunting prevalence in children aged < 5 years (%) - Male
+ind7,underweight,Underweight prevalence in children aged < 5 years (%)
+ind8,underweight_F,Underweight prevalence in children aged < 5 years (%) - Female
+ind9,underweight_M,Underweight prevalence in children aged < 5 years (%) - Male
+ind10,wasting,Wasting prevalence in children aged < 5 years (%)
+ind11,wasting_F,Wasting prevalence in children aged < 5 years (%) - Female
+ind12,wasting_M,Wasting prevalence in children aged < 5 years (%) - Male
+ind13,wastingsev,Severe wasting prevalence in children aged < 5 years (%)
+ind14,wastingsev_F,Severe wasting prevalence in children aged < 5 years (%) - Female
+ind15,wastingsev_M,Severe wasting prevalence in children aged < 5 years (%) - Male
