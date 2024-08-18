@@ -1,6 +1,6 @@
 Dimension ID,Dimension
-1,Child's age (6 groups) (0-59m)
-2,Sex
-3,Place of residence
-4,Economic status (wealth quintile)
-5,Education (3 groups)
+dim1,Age (months)
+dim2,Sex
+dim3,Place of residence
+dim4,Economic status (wealth quintile)
+dim5,Education (mother)
