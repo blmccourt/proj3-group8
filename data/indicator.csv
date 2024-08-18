@@ -1,6 +1,6 @@
 Indicator ID,Anthropometric Indicator,Indicator Description
-ind1,overweight,Overweight prevalence in children aged < 5 years (%)
-ind2,stunting,Stunting prevalence in children aged < 5 years (%)
-ind3,underweight,Underweight prevalence in children aged < 5 years (%)
-ind4,wasting,Wasting prevalence in children aged < 5 years (%)
-ind5,wastingsev,Severe wasting prevalence in children aged < 5 years (%)
+ind1,Overweight,Overweight prevalence in children aged < 5 years (%)
+ind2,Stunting,Stunting prevalence in children aged < 5 years (%)
+ind3,Underweight,Underweight prevalence in children aged < 5 years (%)
+ind4,Wasting,Wasting prevalence in children aged < 5 years (%)
+ind5,Wasting Severe,Severe wasting prevalence in children aged < 5 years (%)
