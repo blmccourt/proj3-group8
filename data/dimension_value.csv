@@ -1,19 +1,19 @@
 Dimension Value ID,Dimension Value
-1,12-23 months
-2,24-35 months
-3,36-47 months
-4,48-59 months
-5,6-11 months
-6,Female
-7,Male
-8,0-5 months
-9,Rural
-10,Urban
-11,Quintile 1 (poorest)
-12,Quintile 2
-13,Quintile 3
-14,Quintile 4
-15,Quintile 5 (richest)
-16,No education
-17,Primary education
-18,Secondary or higher education
+dimval1,12-23 months
+dimval2,24-35 months
+dimval3,36-47 months
+dimval4,48-59 months
+dimval5,6-11 months
+dimval6,Female
+dimval7,Male
+dimval8,0-5 months
+dimval9,Rural
+dimval10,Urban
+dimval11,Quintile 1 (poorest)
+dimval12,Quintile 2
+dimval13,Quintile 3
+dimval14,Quintile 4
+dimval15,Quintile 5 (richest)
+dimval16,No education
+dimval17,Primary education
+dimval18,Secondary or higher education
