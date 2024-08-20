@@ -1,4 +1,4 @@
-# proj3-group8
+# proj3-group8:  Global Malnutrition Estimates in Children Under 5 Years of Age
 
 ## Overview of the project and its purpose
 
