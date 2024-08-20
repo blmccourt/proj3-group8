@@ -1,10 +1,13 @@
 # proj3-group8:  Global Malnutrition Estimates in Children Under 5 Years of Age
 
 ## Overview of the project and its purpose
+TBD
 
 ## Instructions on how to use and interact with the project
+TBD
 
 ## One paragraph summarizing efforts for ethical considerations made in the project
+TBD
 
 ## Data sources
 - [Child malnutrition (UNICEF/WHO/World Bank)](https://www.who.int/data/sets/health-inequality-monitor-dataset#nut)
