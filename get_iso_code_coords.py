@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import sqlite3
 import requests
 import pprint
@@ -26,6 +27,10 @@ filtered_data_df = data_df.query("Dimension == 'Age (months)'")
 
 unique_countries = filtered_data_df["Country"].unique()
 unique_codes = filtered_data_df["Country ISO-3 Code"].unique()
+
+## remove Chile from analysis
+unique_countries = np.delete(unique_countries, 28)
+unique_codes = np.delete(unique_codes, 28)
 
 lats = []
 longs = []
