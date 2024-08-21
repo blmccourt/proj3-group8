@@ -1,7 +1,12 @@
 import pandas as pd
+import sqlite3
 import pprint
 
-data_df = pd.read_csv("./data/clean_data.csv")
+#data_df = pd.read_csv("./data/clean_data.csv")
+conn = sqlite3.connect("./data/malnutrition_data.db")
+query = "SELECT * FROM clean_data"
+
+data_df = pd.read_sql_query(query, conn)
 
 filtered_data_df = data_df.query("Dimension == 'Age (months)'")
 
