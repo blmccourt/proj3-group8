@@ -24,6 +24,7 @@ data_df = pd.read_sql_query(query, conn)
 
 filtered_data_df = data_df.query("Dimension == 'Age (months)'")
 
+unique_countries = filtered_data_df["Country"].unique()
 unique_codes = filtered_data_df["Country ISO-3 Code"].unique()
 
 lats = []
@@ -34,15 +35,18 @@ for code in unique_codes:
     temp_coords = get_country_coordinates(code)
     lats.append(temp_coords[0])
     longs.append(temp_coords[1])
-    print(f"added coords for {code}")
+    print(f"added coords for {code}...")
 
 
 coords_df = pd.DataFrame();
 
+coords_df['country'] = unique_countries;
 coords_df['code'] = unique_codes;
 coords_df['lats'] = lats;
-coords_df['long'] = longs
+coords_df['long'] = longs;
+
+
 
 pprint.pp(coords_df)
 
-coords_df.to_csv("./data/coords.csv")
+coords_df.to_csv("./data/coords.csv", index=False)
