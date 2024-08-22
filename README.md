@@ -10,7 +10,7 @@ TBD
 TBD
 
 ## One paragraph summarizing efforts for ethical considerations made in the project
-TBD
+In this project, careful attention was given to ethical considerations, particularly concerning data privacy and security. No personal identifying information (PII) was included in the dataset, ensuring the anonymity of individuals. The dataset had previously undergone a thorough Extract, Transform, and Load (ETL) process by UNICEF, WHO, and the World Bank, which further safeguarded the integrity and confidentiality of the information. This prior processing ensured that only aggregated, anonymized data was used, aligning with ethical standards for data handling and protection.
 
 ## Data sources
 - [Child Malnutrition Dataset (UNICEF/WHO/World Bank)](https://www.who.int/data/sets/health-inequality-monitor-dataset#nut)
