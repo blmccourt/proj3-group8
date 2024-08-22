@@ -13,11 +13,8 @@ TBD
 TBD
 
 ## Data sources
-- [Child malnutrition (UNICEF/WHO/World Bank)](https://www.who.int/data/sets/health-inequality-monitor-dataset#nut)
+- [Child Malnutrition Dataset (UNICEF/WHO/World Bank)](https://www.who.int/data/sets/health-inequality-monitor-dataset#nut)
+- [WHO Child Malnutrition Database](https://platform.who.int/nutrition/malnutrition-database/database-search)
 - [Joint Malnutrition Estimates (2023 Edition)](https://public.tableau.com/app/profile/unicefdata/viz/JointMalnutritionEstimates2023Edition_16841450949590/WHO_re)
-- [Food Safety](https://apps.who.int/foscollab)
-- [World Economic Outlook Database](https://www.imf.org/en/Publications/WEO/weo-database/2024/April)
-- [Malnutrition Fact by WHO](https://www.who.int/news-room/fact-sheets/detail/malnutrition)
-- [WHAT IS MALNUTRITION IN CHILDREN?](https://www.savethechildren.org/us/charity-stories/what-is-malnutrition-in-children)
 
 ## References for any code used that is not your own
