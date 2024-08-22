@@ -1,7 +1,7 @@
 # Global Malnutrition Estimates in Children Under 5 Years of Age
 
 ## Group presentation
-[Global Malnutrition Analysis]("https://docs.google.com/presentation/d/1vJtmyZMTajHY_IHafsaot_RL99pl2x4QcZPWVB5AQaY/edit?usp=sharing")
+[Global Malnutrition Analysis Presentation](https://docs.google.com/presentation/d/1vJtmyZMTajHY_IHafsaot_RL99pl2x4QcZPWVB5AQaY/edit?usp=sharing)
 
 ## Overview of the project and its purpose
 TBD
