@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indicator Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!--
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    -->
+
+    <script src="define_raw_geojson_data.js"></script>
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 600px;"></div>
+    <select id="geojson-select">
+        <option value="overweight_layer_geojson_data">Overweight</option>
+        <option value="stunting_layer_geojson_data">Stunting</option>
+        <option value="underweight_layer_geojson_data">Underweight</option>
+        <option value="wasting_layer_geojson_data">Wasting</option>
+        <option value="wasting_severe_layer_geojson_data">Wasting (Severe)</option>
+    </select>
+
+    <!-- render base tile layer -->
+    <script src="./render_heatmap.js"></script>
+</body>
+</html>
