@@ -104,7 +104,6 @@ function onEachFeatureFn(feature, layer) {
                 <h3>${feature.properties.country}</h3>
                 <p><strong>${formatted_prevalence}</strong></p>
             </div>
-
         `;
         layer.bindPopup(popupContent);
     }
@@ -121,20 +120,12 @@ function onEachFeatureFn(feature, layer) {
     });
 }
 
-var map = L.map('map').setView([0, 0], 2);
-
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 4,
-}).addTo(map);
-
-var currentGeoJsonLayer;
-
 function loadGeoJson(selected_dataset) {
     if(currentGeoJsonLayer) {
         map.removeLayer(currentGeoJsonLayer);
     }
 
-    L.geoJSON(selected_dataset, {
+    currentGeoJsonLayer = L.geoJSON(selected_dataset, {
 
         onEachFeature: onEachFeatureFn,
         pointToLayer: function(feature, latlng) {
@@ -146,12 +137,22 @@ function loadGeoJson(selected_dataset) {
     map.fitBounds(L.geoJSON(selected_dataset).getBounds());
 }
 
+var map = L.map('map').setView([0, 0], 2);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 4,
+}).addTo(map);
+
+
+// set default layer to display (overweight)
+var currentGeoJsonLayer;
+/*
 var geoJsonLayerOverweight = L.geoJSON(overweight_layer_geojson_data)
 var geoJsonLayerStunting = L.geoJSON(stunting_layer_geojson_data)
 var geoJsonLayerUnderweight = L.geoJSON(underweight_layer_geojson_data)
 var geoJsonLayerWasting = L.geoJSON(wasting_layer_geojson_data)
 var geoJsonLayerWastingSevere = L.geoJSON(wasting_severe_layer_geojson_data)
-
+*/
 loadGeoJson(overweight_layer_geojson_data)
 
 document.getElementById('geojson-select').addEventListener('change', function(event) {
