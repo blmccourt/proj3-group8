@@ -11,7 +11,7 @@ TBD
 ## Instructions on how to use and interact with the project
 
 ### ETL
-The entirely of the ETL workflow was done in the [`ETL.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/ETL.ipynb) notebook.
+The entirety of the ETL workflow was done in the [`ETL.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/ETL.ipynb) notebook.
 
 ### Data Visualizations
 
