@@ -162,16 +162,16 @@ document.getElementById('geojson-select').addEventListener('change', function(ev
 
     // depending on selection, load the appropriate data onto the map as a layer
 
-    if (selection == "overweight_layer_geojson_data") {
-        loadGeoJson(overweight_layer_geojson_data)
-    } else if (selection == "stunting_layer_geojson_data") {
-        loadGeoJson(stunting_layer_geojson_data)
-    } else if (selection == "underweight_layer_geojson_data") {
-        loadGeoJson(underweight_layer_geojson_data)
-    } else if (selection == "wasting_layer_geojson_data") {
-        loadGeoJson(wasting_layer_geojson_data)
-    } else if (selection == "wasting_severe_layer_geojson_data") {
-        loadGeoJson(wasting_severe_layer_geojson_data)
+    if (selection == "overweight_layer_geojson_data_gdf") {
+        loadGeoJson(overweight_layer_geojson_data_gdf)
+    } else if (selection == "stunting_layer_geojson_data_gdf") {
+        loadGeoJson(stunting_layer_geojson_data_gdf)
+    } else if (selection == "underweight_layer_geojson_data_gdf") {
+        loadGeoJson(underweight_layer_geojson_data_gdf)
+    } else if (selection == "wasting_layer_geojson_data_gdf") {
+        loadGeoJson(wasting_layer_geojson_data_gdf)
+    } else if (selection == "wasting_severe_layer_geojson_data_gdf") {
+        loadGeoJson(wasting_severe_layer_geojson_data_gdf)
     } else {
         console.log("invalid selection!");
     }
