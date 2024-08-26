@@ -63,16 +63,15 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 4,
 }).addTo(map);
 
-
-// set default layer to display (overweight)
+// define variable to store current layer
 var currentGeoJsonLayer;
 
+// set overweight layer as default
 loadGeoJson(overweight_layer_geojson_data_gdf)
 
 document.getElementById('geojson-select').addEventListener('change', function(event) {
 
     var selection = event.target.value;
-    //loadGeoJson(selection);
 
     // depending on selection, load the appropriate data onto the map as a layer
 
