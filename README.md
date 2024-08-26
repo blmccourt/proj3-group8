@@ -15,6 +15,9 @@ The entirely of the ETL workflow was done in the [`ETL.ipynb`](https://github.co
 
 ### Data Visualizations
 
+1. 
+
+2. After cloning the repository to your local machine, `index.html` can be opened in your web browser of choice and will render the Leaflet map. The GeoJSON data established in `assemble_geojson.ipynb` is hard-coded into `define_raw_geojson_data.js`, so running the Python notebook isn't necessary to see the web visual.
 
 ## Ethical considerations
 In this project, careful attention was given to ethical considerations, particularly concerning data privacy and security. No personal identifying information (PII) was included in the dataset, ensuring the anonymity of individuals. The dataset had previously undergone a thorough Extract, Transform, and Load (ETL) process by UNICEF, WHO, and the World Bank, which further safeguarded the integrity and confidentiality of the information. This prior processing ensured that only aggregated, anonymized data was used, aligning with ethical standards for data handling and protection.
@@ -44,3 +47,23 @@ In this project, careful attention was given to ethical considerations, particul
   - [clean_data.xlsx](https://github.com/blmccourt/proj3-group8/blob/main/data/clean_data.csv)
 
 ### Data Visualizations
+
+1.
+
+2. **Web Visualization**
+
+- **[`assemble_json.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/assemble_geojson.ipynb)**
+
+  - Jupyter notebook with scripts for retrieving geographic coordinates for countries studied, and establishing GeoJSON data for use in web visualization
+
+- **[`index.html`](https://github.com/blmccourt/proj3-group8/blob/main/index.html)**
+
+  - Web page with a Leaflet visualization which superimposes a user-selected anthropometric factor onto a map for spatial demonstration of malnutrition indicators. Refers to `define_raw_geojson_data.js` and `render_heatmap.js`
+
+- **[`/static/js/define_raw_geojson_data.js`](https://github.com/blmccourt/proj3-group8/blob/main/static/js/define_raw_geojson_data.js)**
+
+  - JavaScript file with static variable definitions, each containing the raw GeoJSON data established in `assemble_json.ipynb`
+
+- **[`/static/js/render_heatmap.js`](https://github.com/blmccourt/proj3-group8/blob/main/static/js/render_heatmap.js)**
+
+  - JavaScript file with main rendering logic, using Leaflet. Interactivity is added by establishing an event listener function that re-renders using data established in `define_raw_geojson_data.js` as a superimposed Leaflet layer
