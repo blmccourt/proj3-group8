@@ -6,7 +6,8 @@
 
 ## Overview of the project and its purpose
 
-TBD
+Analyzing and visualizing global malnutrition data for children under five, with a focus on providing actionable insights to potential donors into inequality factors where resources can be focused.
+Analyzing and visualizing global malnutrition data for children under five enhances fundraising efficiency and donor engagement by targeting resources effectively, increasing transparency, and communicating the urgency of the issue. This approach allows organizations to make informed decisions, build trust with donors, and optimize their impact on combating malnutrition.
 
 ## Instructions on how to use and interact with the project
 
