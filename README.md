@@ -49,9 +49,7 @@ In this project, careful attention was given to ethical considerations, particul
 
 ### Data Visualizations
 
-1.
-
-2. **Web Visualization**
+1. **Web Visualization**
 
 - **[`assemble_geojson.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/assemble_geojson.ipynb)**
 
@@ -68,3 +66,9 @@ In this project, careful attention was given to ethical considerations, particul
 - **[`/static/js/render_heatmap.js`](https://github.com/blmccourt/proj3-group8/blob/main/static/js/render_heatmap.js)**
 
   - JavaScript file with main rendering logic, using Leaflet. Interactivity is added by establishing an event listener function that re-renders using data established in `define_raw_geojson_data.js` as a superimposed Leaflet layer
+ 
+2.  **Web Visualization**
+- Data Summary Interactive Dashboard in Tableau - https://public.tableau.com/views/DataSummaryAll/DataSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- Weight Indicator Dashboard in Tableau - https://public.tableau.com/views/WeightIndicatorProd/WeightInd2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- Education Malnutrition Dashboard in Tableau - https://public.tableau.com/views/EducationMalnutritionData/EducationDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- Income Based Malnutrition Country Dashboard in Tableau - https://public.tableau.com/views/MalnutritionData_17238512473000/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
