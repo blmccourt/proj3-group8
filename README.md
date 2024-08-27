@@ -52,7 +52,7 @@ In this project, careful attention was given to ethical considerations, particul
 
 2. **Web Visualization**
 
-- **[`assemble_json.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/assemble_geojson.ipynb)**
+- **[`assemble_geojson.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/assemble_geojson.ipynb)**
 
   - Jupyter notebook with scripts for retrieving geographic coordinates for countries studied, and establishing GeoJSON data for use in web visualization
 
@@ -62,7 +62,7 @@ In this project, careful attention was given to ethical considerations, particul
 
 - **[`/static/js/define_raw_geojson_data.js`](https://github.com/blmccourt/proj3-group8/blob/main/static/js/define_raw_geojson_data.js)**
 
-  - JavaScript file with static variable definitions, each containing the raw GeoJSON data established in `assemble_json.ipynb`
+  - JavaScript file with static variable definitions, each containing the raw GeoJSON data established in `assemble_geojson.ipynb`
 
 - **[`/static/js/render_heatmap.js`](https://github.com/blmccourt/proj3-group8/blob/main/static/js/render_heatmap.js)**
 
