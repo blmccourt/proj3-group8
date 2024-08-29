@@ -4,6 +4,9 @@
 
 [Global Malnutrition Analysis Presentation](https://docs.google.com/presentation/d/1vJtmyZMTajHY_IHafsaot_RL99pl2x4QcZPWVB5AQaY/edit?usp=sharing)
 
+## Project proposal
+insert link here
+
 ## Overview of the project and its purpose
 
 Analyzing and visualizing global malnutrition data for children under five, with a focus on providing actionable insights to potential donors into inequality factors where resources can be focused.
