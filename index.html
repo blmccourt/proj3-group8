@@ -5,30 +5,25 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <!--
-    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
-    -->
-
     <script src="./static/js/define_raw_geojson_data.js"></script>
 </head>
+
 <body>
     <h3 style="font-family:Arial; text-align:center; color:#ff6699 ">Prevalance of Measured Anthropometric Indicators in Children Under 5</h3>
     <h4 style="font-family:Arial; text-align:center; color:#ff6699 ">(averaged among measured years)</h4>
 
     <div align="center">
         <select id="geojson-select" style="text-align:center; align:center">
-            <option value="overweight_layer_geojson_data_gdf">Overweight</option>
-            <option value="stunting_layer_geojson_data_gdf">Stunting</option>
-            <option value="underweight_layer_geojson_data_gdf">Underweight</option>
-            <option value="wasting_layer_geojson_data_gdf">Wasting</option>
-            <option value="wasting_severe_layer_geojson_data_gdf">Wasting (Severe)</option>
+            <option value="overweight">Overweight</option>
+            <option value="stunting">Stunting</option>
+            <option value="underweight">Underweight</option>
+            <option value="wasting">Wasting</option>
+            <option value="wasting_severe">Wasting (Severe)</option>
         </select>
     </div>
-
+    
     <br>
-    <div id="map" style="width: 100%; height: 600px;"></div>
 
     <div id="legend", align="center", style="display: flex; background: #000">
         <div class="legend-prefix">
@@ -57,8 +52,10 @@
             </div>
         </div>    
     </div>
+    
+    <div id="map" style="width: 100%; height: 600px;"></div>
 
-    <!-- render base tile layer -->
     <script src="./static/js/render_heatmap.js"></script>
+
 </body>
 </html>
