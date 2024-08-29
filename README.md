@@ -70,5 +70,5 @@ In this project, careful attention was given to ethical considerations, particul
 2.  **Tableau**
 - [Data Summary Interactive Dashboard](https://public.tableau.com/views/DataSummaryAll/DataSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 - [Weight Indicator Dashboard](https://public.tableau.com/views/WeightIndicatorProd/WeightInd2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- Education Malnutrition Dashboard](https://public.tableau.com/views/EducationMalnutritionData/EducationDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Education Malnutrition Dashboard](https://public.tableau.com/views/EducationMalnutritionData/EducationDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 - [Income Based Malnutrition Country Dashboard](https://public.tableau.com/views/MalnutritionData_17238512473000/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
