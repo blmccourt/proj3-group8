@@ -23,7 +23,11 @@ insert here
 ### Data Visualizations
 
 #### 1. Tableau
-insert here
+- You dont have to create account to view dashboard and click on right hand side to see various indicators and data
+- [Data Summary Interactive Dashboard](https://public.tableau.com/views/DataSummaryAll/DataSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Weight Indicator Dashboard](https://public.tableau.com/views/WeightIndicatorProd/WeightInd2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Education Malnutrition Dashboard](https://public.tableau.com/views/EducationMalnutritionData/EducationDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Income Based Malnutrition Country Dashboard](https://public.tableau.com/views/MalnutritionData_17238512473000/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 #### 2. Leaflet
 After cloning the repository to your local machine, `index.html` can be opened in your web browser of choice and will render the Leaflet map. The GeoJSON data established in `assemble_geojson.ipynb` is hard-coded into `define_raw_geojson_data.js`, so running the Python notebook isn't necessary to see the web visual.
