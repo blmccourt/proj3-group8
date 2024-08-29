@@ -18,13 +18,14 @@ Analyzing and visualizing global malnutrition data for children under five enhan
 The entirety of the ETL workflow was done in the [`ETL.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/ETL.ipynb) notebook.
 
 ### Data Analysis
+insert here
 
 ### Data Visualizations
 
-## Tableau
+#### Tableau
 insert here
 
-## Leaflet
+#### Leaflet
 After cloning the repository to your local machine, `index.html` can be opened in your web browser of choice and will render the Leaflet map. The GeoJSON data established in `assemble_geojson.ipynb` is hard-coded into `define_raw_geojson_data.js`, so running the Python notebook isn't necessary to see the web visual.
 
 ## Ethical considerations
