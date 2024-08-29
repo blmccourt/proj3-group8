@@ -15,7 +15,7 @@ Analyzing and visualizing global malnutrition data for children under five enhan
 ## Instructions on how to use and interact with the project
 
 ### ETL
-The entirety of the ETL workflow was done in the [`ETL.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/ETL.ipynb) notebook.
+The entirety of the ETL workflow was done in [`ETL.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/ETL.ipynb) and can be executed like a regular Jupyter notebook.
 
 ### Data Analysis
 insert here
