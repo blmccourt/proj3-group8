@@ -5,7 +5,7 @@
 [Global Malnutrition Analysis Presentation](https://docs.google.com/presentation/d/1vJtmyZMTajHY_IHafsaot_RL99pl2x4QcZPWVB5AQaY/edit?usp=sharing)
 
 ## Project proposal
-insert link here
+Kayla insert link here
 
 ## Overview of the project and its purpose
 
@@ -18,7 +18,7 @@ Analyzing and visualizing global malnutrition data for children under five enhan
 The entirety of the ETL workflow was done in [`ETL.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/ETL.ipynb) and can be executed like a regular Jupyter notebook.
 
 ### Data Analysis
-insert here
+Kayla insert here
 
 ### Data Visualizations
 
@@ -60,7 +60,7 @@ In this project, careful attention was given to ethical considerations, particul
   - [clean_data.xlsx](https://github.com/blmccourt/proj3-group8/blob/main/data/clean_data.csv)
 
 ### Data Analysis
-insert here
+Kayla insert here
 
 ### Data Visualizations
 
