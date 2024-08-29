@@ -17,11 +17,15 @@ Analyzing and visualizing global malnutrition data for children under five enhan
 ### ETL
 The entirety of the ETL workflow was done in the [`ETL.ipynb`](https://github.com/blmccourt/proj3-group8/blob/main/ETL.ipynb) notebook.
 
+### Data Analysis
+
 ### Data Visualizations
 
-1. 
+## Tableau
+insert here
 
-2. After cloning the repository to your local machine, `index.html` can be opened in your web browser of choice and will render the Leaflet map. The GeoJSON data established in `assemble_geojson.ipynb` is hard-coded into `define_raw_geojson_data.js`, so running the Python notebook isn't necessary to see the web visual.
+## Leaflet
+After cloning the repository to your local machine, `index.html` can be opened in your web browser of choice and will render the Leaflet map. The GeoJSON data established in `assemble_geojson.ipynb` is hard-coded into `define_raw_geojson_data.js`, so running the Python notebook isn't necessary to see the web visual.
 
 ## Ethical considerations
 In this project, careful attention was given to ethical considerations, particularly concerning data privacy and security. No personal identifying information (PII) was included in the dataset, ensuring the anonymity of individuals. The dataset had previously undergone a thorough Extract, Transform, and Load (ETL) process by UNICEF, WHO, and the World Bank, which further safeguarded the integrity and confidentiality of the information. This prior processing ensured that only aggregated, anonymized data was used, aligning with ethical standards for data handling and protection.
@@ -49,6 +53,9 @@ In this project, careful attention was given to ethical considerations, particul
   - [db_schema.sql](https://github.com/blmccourt/proj3-group8/blob/main/data/db_schema.sql)
   - [malnutrition_data.db](https://github.com/blmccourt/proj3-group8/blob/main/data/malnutrition_data.db)
   - [clean_data.xlsx](https://github.com/blmccourt/proj3-group8/blob/main/data/clean_data.csv)
+
+### Data Analysis
+insert here
 
 ### Data Visualizations
 
