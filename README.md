@@ -22,10 +22,10 @@ insert here
 
 ### Data Visualizations
 
-#### Tableau
+#### 1. Tableau
 insert here
 
-#### Leaflet
+#### 2. Leaflet
 After cloning the repository to your local machine, `index.html` can be opened in your web browser of choice and will render the Leaflet map. The GeoJSON data established in `assemble_geojson.ipynb` is hard-coded into `define_raw_geojson_data.js`, so running the Python notebook isn't necessary to see the web visual.
 
 ## Ethical considerations
